@@ -62,3 +62,14 @@ footer {
 footer address:last-child {
     margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+    .projetos-responsivos {
+        width: 50%;
+        float: left;
+    }
+
+    #paneis-sobre {
+        margin-top: 0;
+    }
+}
